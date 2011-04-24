@@ -2,10 +2,10 @@
 ####################################
 # VMware VirtualCenter server name #
 ####################################
-$vcserver="VCS.ESX.CIRB.LAN" 
+$vcserver="yourventeriporname" 
 $portvc="443"
-$uc="report"
-$pw="Report*+"
+$uc="areadonlyuser"
+$pw="HisBeautifulPassword"
 
 ####################################
 ##Running variables
@@ -16,9 +16,9 @@ $vmlimit = 0  ## ZERO equal No limit of analyzed Vm
 # Mail variables #
 ##################
 $enablemail = "no"
-$smtpServer = "relay.irisnet.be"
-$mailfrom = "vmadmin <vmadmin@cirb.irisnet.be>"
-$mailto = "pkoenig@cirb.irisnet.be"
+$smtpServer = "gateway.smtp.your"
+$mailfrom = "vmadmin@yourdomain"
+$mailto = "you@yourdomain"
 
 #################
 # Script parameters
