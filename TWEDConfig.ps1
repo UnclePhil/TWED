@@ -2,7 +2,7 @@
 ####################################
 # VMware VirtualCenter server name #
 ####################################
-$vcserver="yourventeriporname" 
+$vcserver="YourVcenterIpoOrName" 
 $portvc="443"
 $uc="areadonlyuser"
 $pw="HisBeautifulPassword"
